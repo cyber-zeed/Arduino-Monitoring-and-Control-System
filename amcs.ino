@@ -10,7 +10,7 @@
 LiquidCrystal_I2C lcd(LCD_ADDRESS, LCD_COLUMNS, LCD_ROWS);
 
 int digitalPins[] = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11};
-int analogPins[] = {A0, A1, A2, A3, A4};
+int analogPins[] = {34, 35, 36, 39, 32}; // Change these pin numbers to match ESP32 analog pins
 bool previousDigitalStates[10];
 
 const int SECOND_INTERVAL = 1000;
